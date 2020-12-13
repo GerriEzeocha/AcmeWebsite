@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name = "description" content="Affordable and professional webdesign">
+	<meta name = "keywords" content= "web design, affordable web design, professional web design">
+	<meta name = "author" content= "Gerri Ezeocha">
+	<title>Acme Web Design | About</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<!-- Using a container here instead of an ID, becuase we will have multiple
+			items to use in the container showcase. But we can use an ID if we will just one element-->
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Acme </span>Web Design</h1>	
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="current"><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!--Sections allow us to create specific parts of our site-->
+
+	<section id="newsletter">
+		<div class="container">
+			<h1>Subscribe To Our Newsletter</h1>
+			<form><!--Usually this is where you'll put in serverside language e.g processform.php-->
+				<input type="email" placeholder="Enter Email...">
+				<button type="button" class="button_1">Subscribe</button>
+			</form>
+		</div>
+	</section>	
+
+	<section id="main">
+		<div class="container">
+			<article id="main-col">
+                <h1 class="page-title">About Us</h1>
+                <p>
+                    Amet risus nullam eget felis eget nunc. Mattis molestie a iaculis at erat pellentesque adipiscing commodo elit. 
+                    Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Scelerisque purus semper eget duis. 
+                    Sed arcu non odio euismod lacinia at quis. Purus sit amet luctus venenatis lectus magna. Elit eget gravida cum sociis natoque penatibus. 
+                    Egestas diam in arcu cursus euismod. Phasellus vestibulum lorem sed risus ultricies. 
+                    Fusce ut placerat orci nulla pellentesque. Elementum eu facilisis sed odio morbi quis commodo odio. Ullamcorper sit amet risus nullam eget. 
+                    Magna ac placerat vestibulum lectus mauris. Viverra nibh cras pulvinar mattis nunc. Volutpat commodo sed egestas egestas. 
+                    Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque.
+                </p>
+                <p class="dark">
+                    Aliquet lectus proin nibh nisl condimentum id. Purus in massa tempor nec feugiat nisl pretium. Lacus sed viverra tellus in hac. 
+                    Accumsan lacus vel facilisis volutpat est velit egestas dui id. Diam quis enim lobortis scelerisque fermentum dui. Varius duis at consectetur lorem donec. 
+                    Non nisi est sit amet facilisis. Ac turpis egestas sed tempus urna et pharetra. 
+                    Cras sed felis eget velit aliquet sagittis.
+                </p>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3> What We Do</h3>
+                     <p>Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Convallis posuere morbi leo urna molestie. 
+                     Amet aliquam id diam maecenas ultricies mi eget mauris. 
+                    </p>
+                </div>
+            </aside>
+		</div>
+	</section>
+
+	<footer>
+		<p>Acme Web Design, Copyright &copy; 2020</p>
+	</footer>
+</body>
+</html>
